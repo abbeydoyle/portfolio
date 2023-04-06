@@ -1,4 +1,4 @@
-# abigail-doyle-react-portfolio
+# portfolio
 A personal portfolio build using react
 
 ## Description
@@ -26,15 +26,9 @@ This project uses npm, inquirer, fs, jest, and javascript to generate a Team Por
 
 ## Installation
 
-There is no installation required for this project, simply open the [deployed app](https://abbeydoyle.github.io/abigail-doyle-react-portfolio/) in your preferred browser and browse my portfolio!
+There is no installation required for this project, simply open the [deployed app]() in your preferred browser and browse my portfolio!
 <!-- What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. -->
 
-Generated Webpage: [https://abbeydoyle.github.io/abigail-doyle-react-portfolio/](https://abbeydoyle.github.io/abigail-doyle-react-portfolio/)
-
-![About Me Page](./src/assets/aboutpage.png)
-![Resume Page](./src/assets/resumepage.png)
-![Portfolio Page](./src/assets/portfoliopage.png)
-![Contact Page](./src/assets/contactpage.png)
 
 <!-- Provide instructions and examples for use. Include screenshots as needed.
 
@@ -70,17 +64,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Badges
 
-![badmath](https://img.shields.io/github/repo-size/abbeydoyle/abigail-doyle-react-portfolio?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/repo-size/abbeydoyle/portfolio?color=pink&style=plastic)
 
-![badmath](https://img.shields.io/github/issues-closed-raw/abbeydoyle/abigail-doyle-react-portfolio?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/issues-closed-raw/abbeydoyle/portfolio?color=pink&style=plastic)
 
-![badmath](https://img.shields.io/github/issues-raw/abbeydoyle/abigail-doyle-react-portfolio?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/issues-raw/abbeydoyle/portfolio?color=pink&style=plastic)
 
-![badmath](https://img.shields.io/github/license/abbeydoyle/abigail-doyle-react-portfolio?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/license/abbeydoyle/portfolio?color=pink&style=plastic)
 
-![badmath](https://img.shields.io/github/commits-since/abbeydoyle/abigail-doyle-react-portfolio/123a5fe/main?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/commits-since/abbeydoyle/portfolio/123a5fe/main?color=pink&style=plastic)
 
-![badmath](https://img.shields.io/github/last-commit/abbeydoyle/abigail-doyle-react-portfolio?color=pink&style=plastic)
+![badmath](https://img.shields.io/github/last-commit/abbeydoyle/portfolio?color=pink&style=plastic)
 
 ![badmath](https://img.shields.io/maintenance/yes/2023?color=pink&style=plastic)
 

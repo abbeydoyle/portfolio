@@ -1,7 +1,7 @@
 {
-  "name": "abigail-doyle-react-portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "https://abbeydoyle.github.io/abigail-doyle-react-portfolio",
+  "homepage": "https://abbeydoyle.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -50,7 +50,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abbeydoyle/abigail-doyle-react-portfolio.git"
+    "url": "git+https://github.com/abbeydoyle/portfolio.git"
   },
   "author": "Abigail Doyle",
   "license": "MIT",
