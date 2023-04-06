@@ -1,55 +1,55 @@
 // dependencies
 import React from "react";
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import logo from "../assets/logo.png"
-
-// faux css
-const styles = {
-      border: {
-            marginTop: "1rem",
-            marginBottom: "1rem",
-            border: "0",
-            borderTop: "1px solid rgb(54, 52, 40)",
-      }
-};
+import { Navbar } from "flowbite-react";
 
 // navbar header
 const Header = ({ currentPage, handlePageChange }) => {
       return (
-            <div>
-            <Navbar expand="sm">
-                  <Navbar.Brand>
-                  <img
-              alt="logo"
-              src={logo}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{' '}
-                        Abigail Doyle
-                  </Navbar.Brand>
-                  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                  <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                              <Nav.Link href="#about" onClick={() => handlePageChange("About")} className={currentPage === "About" ? "nav-link active" : "nav-link"}>
-                                    About Me
-                              </Nav.Link>
-                              <Nav.Link href="#resume" onClick={() => handlePageChange("Resume")} className={currentPage === "Resume" ? "nav-link active" : "nav-link"}>
-                                    Resume
-                              </Nav.Link>
-                              <Nav.Link href="#portfolio" onClick={() => handlePageChange("Portfolio")} className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}>
-                                    Portfolio
-                              </Nav.Link>
-                              <Nav.Link href="#contact" onClick={() => handlePageChange("Contact")} className={currentPage === "Contact" ? "nav-link active" : "nav-link"}>
-                                    Contact
-                              </Nav.Link>
-                        </Nav>
-                  </Navbar.Collapse>
-          </Navbar>
-          <hr style = {styles.border}/>
-          </div>
-      )
-}
+      <Navbar fluid={true} rounded={true}>
+          <Navbar.Brand
+            to="/"
+          >
+            <img
+              src=""
+              className="mr-3 h-6 sm:h-9"
+              alt="ArtMart Logo"
+            />
+            <span className="self-center md:text-2xl font-semibold whitespace-nowrap text-[#508192]">
+              ArtMart
+            </span>
+          </Navbar.Brand>
+          <Navbar.Toggle />
+          <Navbar.Collapse>
+            <Navbar.Link href="/">
+              <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent text-[#508192] md:p-0">
+                Prints
+              </span>
+            </Navbar.Link>
+            <Navbar.Link onClick={() => {
+                
+              }}>
+              <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent text-[#508192] md:p-0">
+                Log in
+              </span>
+            </Navbar.Link>
+            <Navbar.Link onClick={() => {
+                
+              }}>
+              <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent text-[#508192] md:p-0">
+                Sign up
+              </span>
+            </Navbar.Link>
+            <Navbar.Link onClick={() => {
+                
+              }}>
+              <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent text-[#508192] md:p-0">
+                My Cart
+              </span>
+            </Navbar.Link>
+          </Navbar.Collapse>
+        </Navbar>
+      );
+    }
+
 
 export default Header
