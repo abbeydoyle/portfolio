@@ -8,41 +8,41 @@ function Header() {
   return (
     <Navbar fluid={true} rounded={true}>
         <Navbar.Brand
-          to="/"
+          href="/"
         >
           <img
             src={logo}
             className="mr-3 h-6 sm:h-9"
             alt="Logo"
           />
-          <span className="self-center md:text-2xl font-semibold whitespace-nowrap text-[#508192]">
+          <span className="self-center md:text-2xl font-semibold whitespace-nowrap text-[#3F5451]">
             Abigail Doyle
           </span>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Navbar.Link href="/">
-            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0">
+            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0 hover:text-[#3F5451] hover:underline">
               About
             </span>
           </Navbar.Link>
           <Navbar.Link href="/portfolio">
-            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0">
+            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0 hover:text-[#3F5451] hover:underline">
               Portfolio
             </span>
           </Navbar.Link>
           <Navbar.Link href="/career">
-            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0">
+            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0 hover:text-[#3F5451] hover:underline">
               Career
             </span>
           </Navbar.Link>
           <Navbar.Link href="/volunteer">
-            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0">
+            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0 hover:text-[#3F5451] hover:underline">
               Volunteer
             </span>
           </Navbar.Link>
           <Navbar.Link href="/publications">
-            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0">
+            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0 hover:text-[#3F5451] hover:underline">
               Publications
             </span>
           </Navbar.Link>
@@ -54,7 +54,7 @@ function Header() {
             </span>
           </Navbar.Link>
           <Navbar.Link href="/contact">
-            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0">
+            <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0 hover:text-[#3F5451] hover:underline">
               Contact
             </span>
           </Navbar.Link>

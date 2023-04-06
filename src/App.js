@@ -10,7 +10,7 @@ import Portfolio from "./pages/Portfolio.js";
 import Career from "./pages/Career.js";
 import Volunteer from "./pages/Volunteer.js";
 import Header from "./components/Header.js";
-import Footer from "./components/Footer.js";
+import FooterApp from "./components/Footer.js";
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
                     <Route path="/volunteer" element={<Volunteer />} />
                   </Routes>
                 </div>
-                <Footer />
+                <FooterApp />
           </Router>
       );
     }
