@@ -21,8 +21,8 @@ function About() {
       >
         <defs>
           <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-            <stop stop-color="rgb(242,235,230)" offset="0%"></stop>
-            <stop stop-color="rgb(210,183,164)" offset="100%"></stop>
+            <stop stopColor="rgb(242,235,230)" offset="0%"></stop>
+            <stop stopColor="rgb(210,183,164)" offset="100%"></stop>
           </linearGradient>
         </defs>
         <path
