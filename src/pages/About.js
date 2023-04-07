@@ -31,7 +31,7 @@ function About() {
         ></path>
       </svg>
 
-      <h1 className="pt-5 text-[#3F5451] font-bold">About Me</h1>
+      <h1 className="pt-5 text-[#3F5451] font-bold" id="aboutMe">About Me</h1>
 
       <div className="px-6 py-12 lg:my-12 md:px-12 text-gray-800 text-center lg:text-left">
         <div className="container mx-auto xl:px-32">

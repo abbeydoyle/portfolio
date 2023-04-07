@@ -8,10 +8,19 @@ import Resume from "../pages/Resume";
 function Header() {
   const [showResumeModal, setshowResumeModal] = useState(false);
 
+  // const headerSwitch = document.querySelector('#aboutMe');
+  // const headerCheck = async () => {
+  //   document.getElementById("header").setAttribute('class', 'aboutHeader')
+  // }
+  // if (headerSwitch) {
+  //   headerCheck();
+  // }
+
   return (
     <Navbar
       fluid={true}
       className="md:bg-[url('https://res.cloudinary.com/duxmtidm1/image/upload/v1680803471/389877_olc7hw.jpg')] header"
+      id="header"
     >
       <Navbar.Brand href="/">
         <img src={logo} className="mr-3 h-6 sm:h-9" alt="Logo" />

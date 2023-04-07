@@ -31,6 +31,7 @@ a:active { text-decoration: none; }
 
 
 @media only screen and (min-width: 768px) {
+      /* .aboutHeader { */
       .header {
             padding-top: 3rem;
             left: 50%;
