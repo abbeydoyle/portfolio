@@ -24,7 +24,7 @@ export default function Resume({ setOpenResumeModal }) {
                   <button
                     className="w-full mt-2 p-2.5 flex-1 text-white hover:bg-[#825c40] bg-[#624530] rounded-md outline-none ring-offset-2 ring-[#825c40] focus:ring-2"
                   >
-                    <a href={CV} download className="text-white">Download</a>
+                    <a href={CV} download="Abigail Doyle CV.pdf" className="text-white">Download</a>
                   </button>
                   <button
                     className="w-full mt-2 p-2.5 flex-1 text-gray-800 rounded-md outline-none border ring-offset-2 ring-indigo-600 focus:ring-2"
