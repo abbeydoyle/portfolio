@@ -65,7 +65,7 @@ function About() {
               <img
                 src="https://res.cloudinary.com/duxmtidm1/image/upload/v1680833230/IMG_1308_il2unr.png"
                 className="w-full rounded-lg shadow-lg"
-                alt="profile image"
+                alt="profile"
               />
             </div>
           </div>
