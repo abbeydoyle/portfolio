@@ -4,7 +4,7 @@ export default function DB() {
 
   return (
     <>
-      <div className="flex -space-x-8 overflow-hidden">
+      <div className="flex md:-space-x-8 -space-y-12 md:-space-y-0 overflow-hidden flex flex-wrap justify-center">
         <div className="inline-block h-[20rem] w-[20rem] rounded-full bg-[#e7ece4] z-30">
           <h2 className="text-center h-screen pt-[35%] leading-10">
             Dobyns-Bennett <br/>High School

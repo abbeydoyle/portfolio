@@ -48,14 +48,16 @@ export default function Education() {
       </svg>
 
       <h1
-        className="md:mt-8 md:mb-8 pt-2 text-[#3F5451] font-bold w-screen text-center md:pb-5"
+        className="md:mt-8 md:mb-8 pt-2 text-[#3F5451] font-bold w-screen text-center pb-5"
         id="otherPage"
       >
         Education
       </h1>
 
 <UWA/>
+<hr className="md:hidden"/>
 <UTC/>
+<hr className="md:hidden"/>
 <DB/>
       <svg
         data-name="Layer 1"
