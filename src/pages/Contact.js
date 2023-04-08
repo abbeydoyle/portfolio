@@ -80,6 +80,9 @@ const Contact = () => {
           <p className="text-[#36261b]">
             Please use this contact form for any site feedback or professional inquiries.
           </p>
+          <p className="text-[#36261b] text-sm">
+            Check out the site on your phone!
+          </p>
         </aside>
         <form className="w-full flex flex-col items-center">
           <div className="relative z-0 w-full mb-6 group border-b-2 border-[#885f43] peer-focus:border-[#573d2b]">

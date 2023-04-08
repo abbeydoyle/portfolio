@@ -50,7 +50,7 @@ function Career() {
       </svg>
 
       <h1
-        className="md:pt-5 pt-2 text-[#3F5451] font-bold w-screen text-center md:pb-5"
+        className="md:mt-8 md:mb-8 pt-2 text-[#3F5451] font-bold w-screen text-center md:pb-5"
         id="otherPage"
       >
         Career History
