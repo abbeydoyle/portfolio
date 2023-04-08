@@ -68,7 +68,7 @@ const Contact = () => {
       <h1 className="text-center pt-5 pb-5 text-[#3F5451] font-bold">
         Contact me
       </h1>
-      <div className="grid grid-cols-2 w-full">
+      <div className="grid md:grid-cols-2 w-full">
         <aside className="w-full self-center">
           <h4 className="text-[#312218] pb-2">Thank you for visiting!</h4>
           <p className="text-[#36261b]">
