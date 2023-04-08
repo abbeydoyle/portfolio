@@ -21,8 +21,9 @@ function Header() {
   return (
     <Navbar
       fluid={true}
-      className="aboutHeader"
+      className="aboutHeader bg-transparent"
       id="header"
+      rounded={true}
     >
       <Navbar.Brand href="/">
         <img src={logo} className="mr-3 h-6 sm:h-9" alt="Logo" />

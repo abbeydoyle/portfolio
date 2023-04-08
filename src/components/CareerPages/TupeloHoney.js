@@ -7,7 +7,7 @@ export default function TupeloHoney() {
   return (
     <>
     <div className="wrap w-full mx-auto mb-5">
-        <div className="grid grid-cols-10 ">
+        <div className="md:grid md:grid-cols-10 hidden">
           <div className="row-span-full col-start-1 col-span-7 self-center">
             <div className="object-cover rounded-lg bg-[#b48868] p-5 pl-8">
 
@@ -28,9 +28,22 @@ export default function TupeloHoney() {
           <div className="row-span-full col-span-5 col-end-11 self-center p-4 text-white bg-[#c1d2de] rounded-lg  h-[30%]  grid content-around">
             <h1 className="text-2xl font-bold mt-0">Tupelo Honey</h1>
             <p className="mb-2 text-xl">Server</p>
-            <p className="mb-2">January 2016 - May 2019</p>
+            <p className="mb-2">May 2017 - November 2017</p>
           </div>
         </div>
+      </div>
+      <div className="md:invisible text-white bg-[#c1d2de] rounded-lg p-4">
+        <h1 className="text-2xl font-bold mt-0">Tupelo Honey</h1>
+        <p className="mb-2 text-xl">Server</p>
+        <p className="mb-2 text-xl">May 2017 - November 2017</p>
+        <button
+                className="float-right hover:text-[#725038] hover:underline"
+                onClick={() => {
+                  setshowTupeloHoneyModal(true);
+                }}
+              >
+                View Job Roles
+              </button>
       </div>
       {showTupeloHoneyModal && <TupeloHoneyAlert setOpenTupeloHoneyModal={setshowTupeloHoneyModal} />}
     </>

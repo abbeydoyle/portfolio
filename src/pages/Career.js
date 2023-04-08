@@ -34,7 +34,7 @@ function Career() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
         preserveAspectRatio="none"
-        className="svg absolute hidden lg:block"
+        className="svg absolute block"
         style={svgStyle}
       >
         <defs>
@@ -50,7 +50,7 @@ function Career() {
       </svg>
 
       <h1
-        className="pt-5 text-[#3F5451] font-bold w-screen text-center pb-5"
+        className="md:pt-5 pt-2 text-[#3F5451] font-bold w-screen text-center md:pb-5"
         id="otherPage"
       >
         Career History
@@ -69,7 +69,7 @@ function Career() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
         preserveAspectRatio="none"
-        className="svg absolute hidden lg:block"
+        className="svg absolute block"
         style={svgStyleFlip}
       >
         <defs>

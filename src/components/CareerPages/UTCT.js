@@ -7,7 +7,7 @@ export default function UTCT() {
   return (
     <>
       <div className="wrap w-full mx-auto mb-5">
-        <div className="grid grid-cols-10">
+        <div className="md:grid md:grid-cols-10 hidden">
           <div className="row-span-full col-span-5 col-start-1 self-center p-4 text-white bg-[#acc2d3] rounded-lg z-10 h-[40%]  grid content-around">
             <h1 className="text-2xl font-bold mt-0">
             The University of Tennessee at Chattanooga
@@ -31,6 +31,19 @@ export default function UTCT() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="md:invisible text-white bg-[#acc2d3] rounded-lg p-4">
+        <h1 className="text-2xl font-bold mt-0">The University of Tennessee at Chattanooga</h1>
+        <p className="mb-2 text-xl">Tutor</p>
+        <p className="mb-2 text-xl">January 2017 – December 2017</p>
+        <button
+                className="float-right hover:text-[#725038] hover:underline"
+                onClick={() => {
+                  setshowUTCTModal(true);
+                }}
+              >
+                View Job Roles
+              </button>
       </div>
       {showUTCTModal && <UTCTAlert setOpenUTCTModal={setshowUTCTModal} />}
     </>

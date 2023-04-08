@@ -30,7 +30,7 @@ a:visited { text-decoration: none; }
 a:active { text-decoration: none; }
 
 
-/* @media only screen and (min-width: 768px) { */
+@media only screen and (min-width: 768px) {
 
       .aboutHeader {
             background-image: url("https://res.cloudinary.com/duxmtidm1/image/upload/v1680803471/389877_olc7hw.jpg");
@@ -43,7 +43,7 @@ a:active { text-decoration: none; }
             right: 50%;
             width: 100vw;
             top: 50%;
-            height: 60vw;
+            height: 15vw;
             margin-top: -5vw;
       };
 
@@ -60,5 +60,6 @@ a:active { text-decoration: none; }
             top: 50%;
             height: 30vw;
             margin-top: -5vw;
-      }
-/* } */
+      };
+
+}

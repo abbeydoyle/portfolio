@@ -7,7 +7,7 @@ export default function ORISE() {
   return (
     <>
       <div className="wrap w-full mx-auto mb-5">
-        <div className="grid grid-cols-10">
+        <div className="md:grid md:grid-cols-10 hidden">
           <div className="row-span-full col-span-5 col-start-1 self-center p-4 text-white bg-[#96b2c8] rounded-lg z-10 h-[30%]  grid content-around">
             <h1 className="text-2xl font-bold mt-0">
             CDC - ORISE | Emergency Response Branch
@@ -34,6 +34,19 @@ export default function ORISE() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="md:invisible text-white bg-[#96b2c8] rounded-lg p-4">
+        <h1 className="text-2xl font-bold mt-0">CDC - ORISE | Emergency Response Branch</h1>
+        <p className="mb-2 text-xl">ORISE Fellow</p>
+        <p className="mb-2 text-xl">May 2018 – August 2018</p>
+        <button
+                className="float-right hover:text-[#725038] hover:underline"
+                onClick={() => {
+                  setshowORISEModal(true);
+                }}
+              >
+                View Job Roles
+              </button>
       </div>
       {showORISEModal && <ORISEAlert setOpenORISEModal={setshowORISEModal} />}
     </>

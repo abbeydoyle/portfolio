@@ -7,7 +7,7 @@ export default function CDC() {
   return (
     <>
       <div className="wrap w-full mx-auto mb-5">
-        <div className="grid grid-cols-10">
+        <div className="md:grid md:grid-cols-10 hidden">
           <div className="row-span-full col-span-5 col-start-1 self-center p-4 text-white bg-[#acc2d3] rounded-lg z-10 h-[30%]  grid content-around">
             <h1 className="text-2xl font-bold mt-0">
               CDC - Battelle | Emergency Response Branch
@@ -53,6 +53,19 @@ export default function CDC() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="md:invisible text-white bg-[#acc2d3] rounded-lg p-4">
+        <h1 className="text-2xl font-bold mt-0">CDC - Battelle | Emergency Response Branch</h1>
+        <p className="mb-2 text-xl">Research Chemist</p>
+        <p className="mb-2 text-xl">July 2019 – February 2022</p>
+        <button
+                className="float-right hover:text-[#725038] hover:underline"
+                onClick={() => {
+                  setshowCDCModal(true);
+                }}
+              >
+                View Job Roles
+              </button>
       </div>
       {showCDCModal && <CDCAlert setOpenCDCModal={setshowCDCModal} />}
     </>

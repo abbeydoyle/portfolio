@@ -7,7 +7,7 @@ export default function UTCRA() {
   return (
     <>
     <div className="wrap w-full mx-auto mb-5">
-        <div className="grid grid-cols-10 ">
+        <div className="md:grid md:grid-cols-10 hidden">
           <div className="row-span-full col-start-1 col-span-7 self-center">
             <div className="object-cover rounded-lg bg-[#c7a68f] p-5 pl-8">
 
@@ -34,6 +34,19 @@ export default function UTCRA() {
             <p className="mb-2">January 2016 - May 2019</p>
           </div>
         </div>
+      </div>
+      <div className="md:invisible text-white bg-[#a1bacd] rounded-lg p-4">
+        <h1 className="text-2xl font-bold mt-0">The University of Tennessee at Chattanooga</h1>
+        <p className="mb-2 text-xl">Laboratory Research Lead</p>
+        <p className="mb-2 text-xl">January 2016 - May 2019</p>
+        <button
+                className="float-right hover:text-[#725038] hover:underline"
+                onClick={() => {
+                  setshowUTCRAModal(true);
+                }}
+              >
+                View Job Roles
+              </button>
       </div>
       {showUTCRAModal && <UTCRAAlert setOpenUTCRAModal={setshowUTCRAModal} />}
     </>
