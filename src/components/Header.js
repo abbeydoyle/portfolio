@@ -48,6 +48,11 @@ function Header() {
             Career
           </span>
         </Navbar.Link>
+        <Navbar.Link href="/education">
+          <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0 md:text-white hover:underline text-[#3F5451]">
+            Education
+          </span>
+        </Navbar.Link>
         <Navbar.Link href="/volunteer">
           <span className="block md:py-2 pl-3 pr-4 md:text-lg rounded bg-transparent md:p-0 md:text-white hover:underline text-[#3F5451]">
             Volunteer

@@ -11,6 +11,7 @@ import Career from "./pages/Career.js";
 import Volunteer from "./pages/Volunteer.js";
 import Header from "./components/Header.js";
 import FooterApp from "./components/Footer.js";
+import Education from "./pages/Education";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/career" element={<Career />} />
                     <Route path="/volunteer" element={<Volunteer />} />
+                    <Route path="/education" element={<Education />} />
                   </Routes>
                 </div>
                 <FooterApp />
