@@ -14,7 +14,7 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [emailSent, setEmailSent] = useState(false);
+  // const [emailSent, setEmailSent] = useState(false);
   const [showMessageModal, setshowMessageModal] = useState(false);
 
   const submit = () => {
@@ -36,7 +36,7 @@ const Contact = () => {
       setName("");
       setEmail("");
       setMessage("");
-      setEmailSent(true);
+      // setEmailSent(true);
       setshowMessageModal(true);
     } else {
       alert("Please fill in all fields.");
