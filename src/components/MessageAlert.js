@@ -42,12 +42,12 @@ export default function MessageAlert({ setOpenMessageModal }) {
                   Thank you for your time
                 </h5>
                 <div className="flex justify-around ">
-                  <a
+                  <button
                     onClick={() => setOpenMessageModal(false)}
                     className="mt-2 text-[15px] leading-relaxed text-[#78543b] hover:text-[#36261b] underline"
                   >
                     Back to site
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>

@@ -22,7 +22,7 @@ export default function MovieMoodboard() {
                   />
                   <img
                     src="https://res.cloudinary.com/duxmtidm1/image/upload/v1681036144/Screen_Shot_2023-04-09_at_3.28.47_AM_bgruc2.png"
-                    alt="homepage drivein image"
+                    alt="homepage drivein"
                   />
                   <img
                     src="https://res.cloudinary.com/duxmtidm1/image/upload/v1681036119/Screen_Shot_2023-04-09_at_3.28.14_AM_wffsz7.png"
@@ -39,8 +39,8 @@ export default function MovieMoodboard() {
                     <h3 className="text-xl leading-10 pb-2"> A responsive front-end application to create movie and tv show recommendations based on user input.</h3>
                     <h4 className="text-lg leading-10 pb-5">Technologies: HTML, CSS, JS, TailwindCSS, third-party APIs</h4>
                     <div className="flex justify-around">
-                    <a href="https://abbeydoyle.github.io/movie-moodboard/" target="_blank" className="text-black hover:text-[#725038] hover:underline">Deployed Application</a>
-                    <a href="https://github.com/abbeydoyle/movie-moodboard " target="_blank" className="text-black hover:text-[#725038] hover:underline">Github Repository</a>
+                    <a href="https://abbeydoyle.github.io/movie-moodboard/" target="_blank" rel="noreferrer" className="text-black hover:text-[#725038] hover:underline">Deployed Application</a>
+                    <a href="https://github.com/abbeydoyle/movie-moodboard " target="_blank" rel="noreferrer" className="text-black hover:text-[#725038] hover:underline">Github Repository</a>
                     </div>
                 </div>
                 
@@ -52,8 +52,8 @@ export default function MovieMoodboard() {
                     <h3 className="text-xl leading-10 pb-2"> A responsive front-end application to create movie and tv show recommendations based on user input.</h3>
                     <h4 className="text-lg leading-10 pb-5">Technologies: HTML, CSS, JS, TailwindCSS, third-party APIs</h4>
                     <div className="flex justify-around">
-                    <a href="https://abbeydoyle.github.io/movie-moodboard/" target="_blank" className="text-black hover:text-[#725038] hover:underline">Deployed Application</a>
-                    <a href="https://github.com/abbeydoyle/movie-moodboard " target="_blank" className="text-black hover:text-[#725038] hover:underline">Github Repository</a>
+                    <a href="https://abbeydoyle.github.io/movie-moodboard/" target="_blank" rel="noreferrer" className="text-black hover:text-[#725038] hover:underline">Deployed Application</a>
+                    <a href="https://github.com/abbeydoyle/movie-moodboard " target="_blank" rel="noreferrer" className="text-black hover:text-[#725038] hover:underline">Github Repository</a>
                     </div>
                 </div>
             </>

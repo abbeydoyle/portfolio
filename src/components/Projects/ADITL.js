@@ -21,6 +21,7 @@ export default function ADITL() {
             <a
               href="https://a-day-in-the-leaf.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
               className="text-black hover:text-[#725038] hover:underline"
             >
               Deployed Application
@@ -28,6 +29,7 @@ export default function ADITL() {
             <a
               href="https://github.com/abbeydoyle/A-Day-in-the-Leaf"
               target="_blank"
+              rel="noreferrer"
               className="text-black hover:text-[#725038] hover:underline"
             >
               Github Repository
@@ -84,6 +86,7 @@ export default function ADITL() {
           <a
             href="https://a-day-in-the-leaf.herokuapp.com/"
             target="_blank"
+            rel="noreferrer"
             className="text-black hover:text-[#725038] hover:underline"
           >
             Deployed Application
@@ -91,6 +94,7 @@ export default function ADITL() {
           <a
             href="https://github.com/abbeydoyle/A-Day-in-the-Leaf"
             target="_blank"
+            rel="noreferrer"
             className="text-black hover:text-[#725038] hover:underline"
           >
             Github Repository
