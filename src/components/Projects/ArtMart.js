@@ -3,7 +3,7 @@ export default function ArtMart() {
   return (
     <>
       <div className="md:grid md:grid-cols-2">
-        <div className="gallery md:w-full w-[30%] -translate-x-5 md:translate-x-0">
+        <div className="gallery w-full">
           <img
             src="https://res.cloudinary.com/duxmtidm1/image/upload/v1681018822/Screen_Shot_2023-04-08_at_10.40.01_PM_sfrazj.png"
             alt="logout"

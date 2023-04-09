@@ -3,7 +3,7 @@ export default function MovieMoodboard() {
       return (
             <>
               <div className="md:grid md:grid-cols-2">
-                <div className="gallery md:w-full w-[30%] -translate-x-5 md:translate-x-0">
+                <div className="gallery w-full">
                   <img
                     src="https://res.cloudinary.com/duxmtidm1/image/upload/v1681035975/Screen_Shot_2023-04-09_at_3.25.46_AM_iemzvy.png"
                     alt="soap tv"

@@ -47,7 +47,6 @@ function Portfolio() {
 
       <h1 className="pt-5 font-bold" id="otherPage">
         Project Portfolio
-        <hr className="w-[120%] -translate-x-5"></hr>
       </h1>
       <hr></hr>
 
