@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e33434af.css",
+    "main.js": "/portfolio/static/js/main.a0890606.js",
+    "static/media/Thesis.pdf": "/portfolio/static/media/Thesis.ae28e850310ab688c772.pdf",
+    "static/media/EVALI.pdf": "/portfolio/static/media/EVALI.97b5c2e21a6e47986eca.pdf",
+    "static/media/logo.png": "/portfolio/static/media/logo.5e3acf01644181b0af3e.png",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.511dcb8fd95746ad2424.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.e33434af.css.map": "/portfolio/static/css/main.e33434af.css.map",
+    "main.a0890606.js.map": "/portfolio/static/js/main.a0890606.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e33434af.css",
+    "static/js/main.a0890606.js"
+  ]
+}
