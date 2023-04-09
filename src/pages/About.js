@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import Backpacking from "../components/Hobbies/Backpacking";
+import Duna from "../components/Hobbies/Duna";
+import Reading from "../components/Hobbies/Reading";
+import Violin from "../components/Hobbies/Violin";
 
 const svgStyle = {
   height: "560px",
@@ -19,6 +23,10 @@ const svgStyleFlip = {
 };
 
 function About() {
+  const [showBackpackingModal, setshowBackpackingModal] = useState(false);
+  const [showDunaModal, setshowDunaModal] = useState(false);
+  const [showReadingModal, setshowReadingModal] = useState(false);
+  const [showViolinModal, setshowViolinModal] = useState(false);
   return (
     <>
       <svg
@@ -41,12 +49,14 @@ function About() {
         ></path>
       </svg>
 
-      <h1 className="pt-5 text-[#3F5451] font-bold" id="aboutMe">About Me</h1>
+      <h1 className="pt-5 text-[#3F5451] font-bold" id="aboutMe">
+        About Me
+      </h1>
 
       <div className="px-6 py-8 lg:my-12 md:px-12 text-gray-800 text-center lg:text-left">
         <div className="container mx-auto xl:px-32">
           <div className="grid lg:grid-cols-2 gap-12 flex">
-          <div className="mb-12 lg:mb-0">
+            <div className="lg:mb-0">
               <img
                 src="https://res.cloudinary.com/duxmtidm1/image/upload/v1680833230/IMG_1308_il2unr.png"
                 className="w-full rounded-lg shadow-lg"
@@ -78,7 +88,103 @@ function About() {
                 finish.
               </p>
             </div>
-            
+          </div>
+        </div>
+      </div>
+
+      <div className="grid lg:grid-cols-2 gap-12 flex">
+        <div className="">
+          <div>
+            <h2>Boeing</h2>
+            <hr></hr>
+            <p>
+              “Abbey has been a great addition to the team and is spoken of very
+              highly by team members. I appreciate her honest communication and
+              the fact that she is willing to take on a variety of different
+              tasks. Abbey has a consistently positive and upbeat attitude and
+              is very technically competent. Other members of the team have
+              noted she is a fast learning, is diligent, and has good attention
+              to detail.” <br />– 2022 Performance Review
+            </p>
+          </div>
+
+          <div>
+            <h2>CDC</h2>
+            <hr></hr>
+            <p>
+            “She was an invaluable asset to the lab during the lung injury response earlier this year and it’s worth noting, she nearly handled the response singlehandedly for the IRL (Incidents Response Lab). She has been a source of continuity in the lab this year as many staff have transitioned out of the lab. She has worked diligently in the IRL, taken on more tasks and helped maintain continuity during staff transitions. She communicates well and is responsive to both Battelle and CDC requirements.”<br />– 2020 Performance Review
+            </p>
+          </div>
+
+        </div>
+
+        <div className="md:pl-[45%] pl-[35%] mb-[20%]">
+        <h2 className="-pl-[40%]">Hobbies</h2>
+            <hr className="-ml-[60%]"></hr>
+          <div className="">
+            <div className="">
+              <div
+                className="venncirctop p-[18px] w-[240px] h-[240px] rounded-full absolute transition duration-500 ease-in-out mb-[-130px] ml-[-70px] bg-[#5c5b59] z-10
+              hover:z-50 hover:bg-[#6A6561]
+              "
+              >
+                <button
+                  className="venntxttop hover:text-[#FFFFFF] text-[#FFFFFF] text-2xl font-bold text-center relative z-50 inline-block pl-[30%] pt-[10%]"
+                  onClick={() => {
+                    setshowViolinModal(true);
+                  }}
+                >
+                  Violin
+                </button>
+              </div>
+
+              <div
+                className="venncirclft p-[18px] w-[240px] h-[240px] rounded-full absolute transition duration-500 ease-in-out ml-[-157px] bg-[#093d5c] z-20
+              hover:z-50 hover:bg-[#37688C]
+              "
+              >
+                <button
+                  className="venntxtlft float-left hover:text-[#FFFFFF] text-[#FFFFFF] text-2xl font-bold relative inline-block pt-[40%]"
+                  onClick={() => {
+                    setshowDunaModal(true);
+                  }}
+                >
+                  Duna
+                </button>
+              </div>
+
+              <div
+                className="
+              venncircrt w-[240px] h-[240px] rounded-full absolute ml-[17px] mr-[100px] p-[18px] text-center bg-[#5e577b] transition duration-500 ease-in-out z-30 
+              hover:z-50 hover:bg-[#625F75]
+              "
+              >
+                <button
+                  className="venntxtrt float-right hover:text-[#FFFFFF] text-[#FFFFFF] text-2xl font-bold relative inline-block pt-[40%]"
+                  onClick={() => {
+                    setshowReadingModal(true);
+                  }}
+                >
+                  Reading
+                </button>
+              </div>
+
+              <div
+                className="
+              venncircbtm w-[240px] h-[240px] rounded-full relative ml-[-70px] mr-[100px] text-center bg-[#627746] transition duration-500 ease-in-out top-[90px] p-[18px] z-10
+              hover:z-50 hover:bg-[#3a4e20]
+              "
+              >
+                <button
+                  className="venntxtbtm hover:text-[#FFFFFF] text-[#FFFFFF] text-2xl font-bold text-center relative z-50 inline-block pt-[70%]"
+                  onClick={() => {
+                    setshowBackpackingModal(true);
+                  }}
+                >
+                  Backpacking
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -102,6 +208,10 @@ function About() {
           d="M 0.351 264.418 C 0.351 264.418 33.396 268.165 47.112 270.128 C 265.033 301.319 477.487 325.608 614.827 237.124 C 713.575 173.504 692.613 144.116 805.776 87.876 C 942.649 19.853 1317.845 20.149 1440.003 23.965 C 1466.069 24.779 1440.135 24.024 1440.135 24.024 L 1440 0 L 1360 0 C 1280 0 1120 0 960 0 C 800 0 640 0 480 0 C 320 0 160 0 80 0 L 0 0 L 0.351 264.418 Z"
         ></path>
       </svg>
+      {showBackpackingModal && <Backpacking setOpenBackpackingModal={setshowBackpackingModal} />}
+      {showDunaModal && <Duna setOpenDunaModal={setshowDunaModal} />}
+      {showReadingModal && <Reading setOpenReadingModal={setshowReadingModal} />}
+      {showViolinModal && <Violin setOpenViolinModal={setshowViolinModal} />}
     </>
   );
 }
