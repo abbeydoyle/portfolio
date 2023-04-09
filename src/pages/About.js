@@ -49,7 +49,7 @@ function About() {
         ></path>
       </svg>
 
-      <h1 className="pt-5 text-[#3F5451] font-bold" id="aboutMe">
+      <h1 className="pt-5 font-bold" id="aboutMe">
         About Me
       </h1>
 

@@ -65,7 +65,7 @@ const Contact = () => {
         ></path>
       </svg>
 
-      <h1 className="text-center pt-5 pb-5 text-[#3F5451] font-bold">
+      <h1 className="text-center pt-5 pb-5 font-bold">
         Contact me
       </h1>
       <div className="grid md:grid-cols-2 w-full">
