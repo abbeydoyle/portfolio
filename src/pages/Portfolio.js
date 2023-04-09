@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel } from "flowbite-react";
+import ArtMart from "../components/Projects/ArtMart";
 
 const svgStyle = {
   height: "560px",
@@ -32,33 +32,12 @@ function Portfolio() {
         ></path>
       </svg>
 
-      <h1 className="pt-5 text-[#3F5451] font-bold" id="otherPage">Project Portfolio</h1>
+      <h1 className="pt-5 text-[#3F5451] font-bold" id="otherPage">
+        Project Portfolio
+      </h1>
 
-
-      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-  <Carousel slide={false}>
-    <img
-      src="https://res.cloudinary.com/duxmtidm1/image/upload/v1680833230/IMG_1308_il2unr.png"
-      alt="..."
-    />
-    <img
-      src="https://res.cloudinary.com/duxmtidm1/image/upload/v1680833230/IMG_1308_il2unr.png"
-      alt="..."
-    />
-    <img
-      src="https://res.cloudinary.com/duxmtidm1/image/upload/v1680833230/IMG_1308_il2unr.png"
-      alt="..."
-    />
-    <img
-      src="https://res.cloudinary.com/duxmtidm1/image/upload/v1680833230/IMG_1308_il2unr.png"
-      alt="..."
-    />
-    <img
-      src="https://res.cloudinary.com/duxmtidm1/image/upload/v1680833230/IMG_1308_il2unr.png"
-      alt="..."
-    />
-  </Carousel>
-</div>
+<ArtMart/>
+      
     </>
   );
 }
