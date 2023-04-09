@@ -99,6 +99,18 @@ a:active {
   background-color: rgba(58, 78, 32, 0.9);
 }
 
+
+
+.gallery > img:nth-child(1) {--_x: calc(-100% - var(--g))}
+.gallery > img:nth-child(7) {--_x: calc( 100% + var(--g))}
+.gallery > img:nth-child(3),
+.gallery > img:nth-child(5) {--_y: calc(-75% - .87*var(--g))}
+.gallery > img:nth-child(4),
+.gallery > img:nth-child(6) {--_y: calc( 75% + .87*var(--g))}
+.gallery > img:nth-child(3),
+.gallery > img:nth-child(4) {--_x: calc(-50% - .5*var(--g))}
+.gallery > img:nth-child(5), 
+.gallery > img:nth-child(6) {--_x: calc( 50% + .5*var(--g))}
 .gallery {
   --s: 200px; /* control the size */
   --g: 10px;  /* control the gap */
@@ -122,15 +134,4 @@ a:active {
   z-index: 1;
   --_t: 1.2;
 }
-
-.gallery > img:nth-child(1) {--_x: calc(-100% - var(--g))}
-.gallery > img:nth-child(7) {--_x: calc( 100% + var(--g))}
-.gallery > img:nth-child(3),
-.gallery > img:nth-child(5) {--_y: calc(-75% - .87*var(--g))}
-.gallery > img:nth-child(4),
-.gallery > img:nth-child(6) {--_y: calc( 75% + .87*var(--g))}
-.gallery > img:nth-child(3),
-.gallery > img:nth-child(4) {--_x: calc(-50% - .5*var(--g))}
-.gallery > img:nth-child(5), 
-.gallery > img:nth-child(6) {--_x: calc( 50% + .5*var(--g))}
 

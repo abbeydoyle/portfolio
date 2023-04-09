@@ -48,10 +48,11 @@ export default function Education() {
       </svg>
 
       <h1
-        className="md:mt-8 md:mb-8 pt-2 text-[#3F5451] font-bold w-screen text-center pb-5"
+        className="pt-5 font-bold md:pb-8"
         id="otherPage"
       >
         Education
+        <hr className="w-[120%] -translate-x-5"></hr>
       </h1>
 
 <UWA/>
