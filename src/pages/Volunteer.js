@@ -1,4 +1,8 @@
 import React from "react";
+import TrevorProject from "../components/Volunteering/TrevorProject";
+import Animals from "../components/Volunteering/Animals";
+import WomensShelters from "../components/Volunteering/WomensShelters";
+import ParksDpt from "../components/Volunteering/ParksDpt";
 
 const svgStyle = {
   height: "1500px",
@@ -49,6 +53,12 @@ export default function Volunteer() {
         Volunteering
         <hr className="w-[130%] -translate-x-7"></hr>
       </h1>
+
+
+<TrevorProject/>
+<Animals/>
+<WomensShelters/>
+<ParksDpt/>
 
 
       <svg
