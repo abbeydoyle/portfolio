@@ -46,13 +46,14 @@ function Publications() {
 
 
       <h1
-        className="md:mt-8 md:mb-8 pt-2 font-bold w-screen text-center md:pb-5"
+        className="md:mt-8 md:mb-8 pt-2 font-bold text-center md:pb-5"
         id="otherPage"
       >
         Publications
+        <hr className="w-[130%] -translate-x-6"></hr>
       </h1>
       <div className="grid md:grid-cols-2 gap-8 md:mt-[5%] md:mb-[5%]">
-      <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 ">
+      <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 md:py-5">
         <img
           class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
           src="https://res.cloudinary.com/duxmtidm1/image/upload/v1680931032/Screen_Shot_2023-04-07_at_10.16.16_PM_x3n70c.png"

@@ -32,7 +32,7 @@ export default function TupeloHoney() {
           </div>
         </div>
       </div>
-      <div className="md:invisible text-white bg-[#c1d2de] rounded-lg p-4">
+      <div className="md:invisible text-white bg-[#c1d2de] w-full rounded-lg p-4">
         <h1 className="text-2xl font-bold mt-0">Tupelo Honey</h1>
         <p className="mb-2 text-xl">Server</p>
         <p className="mb-2 text-xl">May 2017 - November 2017</p>

@@ -47,13 +47,13 @@ function Portfolio() {
 
       <h1 className="pt-5 font-bold" id="otherPage">
         Project Portfolio
+        <hr className="w-[130%] -translate-x-12 md:pb-5"></hr>
       </h1>
-      <hr></hr>
 
       <ArtMart />
-      <hr className="m-5"></hr>
+      <hr className="md:m-5"></hr>
       <ADITL />
-      <hr className="m-5"></hr>
+      <hr className="md:m-5"></hr>
       <MovieMoodboard />
 
 

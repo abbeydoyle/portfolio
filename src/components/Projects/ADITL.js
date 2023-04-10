@@ -36,7 +36,7 @@ export default function ADITL() {
             </a>
           </div>
         </div>
-        <div className="gallery w-full">
+        <div className="gallery md:w-full w-[25%] -translate-x-10 md:-translate-x-0">
           <img
             src="https://res.cloudinary.com/duxmtidm1/image/upload/v1681033403/Screen_Shot_2023-04-09_at_2.41.50_AM_upneuf.png"
             alt="sign in"

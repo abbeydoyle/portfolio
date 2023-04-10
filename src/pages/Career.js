@@ -50,10 +50,11 @@ function Career() {
       </svg>
 
       <h1
-        className="md:mt-8 md:mb-8 pt-2 font-bold w-screen text-center md:pb-5"
+        className="pt-5 font-bold md:pb-8"
         id="otherPage"
       >
         Career History
+        <hr className="w-[130%] -translate-x-10"></hr>
       </h1>
 
       <Boeing />

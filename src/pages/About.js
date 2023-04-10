@@ -51,19 +51,20 @@ function About() {
 
       <h1 className="pt-5 font-bold" id="aboutMe">
         About Me
+        <hr className="w-[130%] -translate-x-7"></hr>
       </h1>
 
       <div className="px-6 py-8 lg:my-12 md:px-12 text-gray-800 text-center lg:text-left">
         <div className="container mx-auto xl:px-32">
           <div className="grid lg:grid-cols-2 gap-12 flex">
-            <div className="lg:mb-0">
+            <div className="mb-0">
               <img
                 src="https://res.cloudinary.com/duxmtidm1/image/upload/v1680833230/IMG_1308_il2unr.png"
                 className="w-full rounded-lg shadow-lg"
                 alt="profile"
               />
             </div>
-            <div className="mt-12 lg:mt-0">
+            <div className="md:mt-12 lg:mt-0">
               <p className="text-lg self-start md:leading-10 ">
                 My name is Abbey Doyle. I'm an environmental engineer working
                 for Boeing, currently in the progress of getting a Professional
