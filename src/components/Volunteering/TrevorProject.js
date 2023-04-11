@@ -4,10 +4,10 @@ export default function TrevorProject() {
   return (
     <>
       <div className="w-full">
-        <div className="bg-[#625F75] md:w-[30%] w-[80%] z-20 translate-y-10 translate-x-5 rounded-lg">
+        <div className="bg-[#8f8ca1] md:w-[40%] w-[80%] z-20 translate-y-10 translate-x-5 rounded-lg shadow-xl">
           <h2 className="font-semibold text-white text-center py-3 text-2xl">The Trevor Project</h2>
         </div>
-        <div className="bg-[#8f8ca1] w-full rounded-lg z-10">
+        <div className="bg-[#bfbdca] w-full rounded-lg z-10 shadow-md">
           <h2 className="py-5 text-base md:px-5 px-3 leading-8">Founded in 1998, The Trevor Project is a national
                       organization that provides crisis intervention and suicide
                       prevention to LGBTQ+ youth. With four main platforms, The

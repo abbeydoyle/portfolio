@@ -7,9 +7,9 @@ export default function Boeing() {
   return (
     <>
     <div className="wrap w-full mx-auto mb-5">
-        <div className="md:grid md:grid-cols-10 hidden">
+        <div className="md:grid md:grid-cols-10 hidden ">
           <div className="row-span-full col-start-1 col-span-7 self-center">
-            <div className="object-cover rounded-lg bg-[#b48868] p-5 pl-8">
+            <div className="object-cover rounded-lg bg-[#b48868] p-5 pl-8 shadow-xl">
 
               <p className="pr-[30%]">
               Boeing is one of the world's largest aerospace companies, known for designing, manufacturing, and selling airplanes, helicopters, satellites, and missiles. Founded in Seattle, Washington in 1916, the company has grown to become a global leader in the aviation industry, with operations in over 65 countries and a workforce of more than 140,000 employees. Boeing is known for its iconic commercial jetliners such as the 747, 777, and 787, as well as its defense and space products. The company's commitment to innovation and safety has made it a trusted brand in the aviation industry for over a century.
@@ -29,14 +29,14 @@ export default function Boeing() {
               </button>
             </div>
           </div>
-          <div className="row-span-full col-span-5 col-end-11 self-center p-4 text-white bg-[#c1d2de] rounded-lg  h-[30%]  grid content-around">
+          <div className="row-span-full col-span-5 col-end-11 self-center p-4 text-white bg-[#c1d2de] rounded-lg  h-[30%]  grid content-around shadow-xl">
             <h1 className="text-2xl font-bold mt-0">Boeing | Environmental, Health, and Safety</h1>
             <p className="mb-2 text-xl">Environmental Engineer</p>
             <p className="mb-2">February 2022 - Present</p>
           </div>
         </div>
       </div>
-      <div className="md:invisible text-white bg-[#c1d2de] rounded-lg p-4">
+      <div className="md:invisible text-white bg-[#c1d2de] rounded-lg p-4 shadow-xl">
         <h1 className="text-2xl font-bold mt-0">Boeing | Environmental, Health, and Safety</h1>
         <p className="mb-2 text-xl">Environmental Engineer</p>
         <p className="mb-2 text-xl">February 2022 - Present</p>

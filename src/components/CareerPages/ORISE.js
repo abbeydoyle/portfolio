@@ -8,7 +8,7 @@ export default function ORISE() {
     <>
       <div className="wrap w-full mx-auto mb-5">
         <div className="md:grid md:grid-cols-10 hidden">
-          <div className="row-span-full col-span-5 col-start-1 self-center p-4 text-white bg-[#96b2c8] rounded-lg z-10 h-[30%]  grid content-around">
+          <div className="row-span-full col-span-5 col-start-1 self-center p-4 text-white bg-[#96b2c8] rounded-lg z-10 h-[30%]  grid content-around shadow-xl">
             <h1 className="text-2xl font-bold mt-0">
             CDC - ORISE | Emergency Response Branch
             </h1>
@@ -16,7 +16,7 @@ export default function ORISE() {
             <p className="mb-2">May 2018 – August 2018</p>
           </div>
           <div className="row-span-full col-end-11 col-span-7 self-center">
-            <div className="object-cover rounded-lg bg-[#d2b7a4]  p-5">
+            <div className="object-cover rounded-lg bg-[#d2b7a4]  p-5 shadow-xl">
               <p className="pl-[30%]">
               The Emergency Response Branch (ERB) develops and performs unique laboratory tests to assess chemical exposures during a public health emergency or terrorist event. In a public health emergency, the rapid detection and accurate identification of chemical agents can be crucial for diagnosis, treatment, and prevention. However, this rapid response depends heavily on sample logistics which comprises a series of steps to maintain sample integrity (such as sample receiving logistics, accessioning, aliquoting, chain of custody forms, and final distribution to the testing laboratories). The Incident Response Lab (IRL) is the central operating center for biological samples and reference standards within both the ERB and Laboratory Response Network for Chemical Threats (LRN-C).
               </p>
@@ -35,7 +35,7 @@ export default function ORISE() {
           </div>
         </div>
       </div>
-      <div className="md:invisible text-white bg-[#96b2c8] rounded-lg p-4">
+      <div className="md:invisible text-white bg-[#96b2c8] rounded-lg p-4 shadow-xl">
         <h1 className="text-2xl font-bold mt-0">CDC - ORISE | Emergency Response Branch</h1>
         <p className="mb-2 text-xl">ORISE Fellow</p>
         <p className="mb-2 text-xl">May 2018 – August 2018</p>

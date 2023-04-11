@@ -8,7 +8,7 @@ export default function CDC() {
     <>
       <div className="wrap w-full mx-auto mb-5">
         <div className="md:grid md:grid-cols-10 hidden">
-          <div className="row-span-full col-span-5 col-start-1 self-center p-4 text-white bg-[#acc2d3] rounded-lg z-10 h-[30%]  grid content-around">
+          <div className="row-span-full col-span-5 col-start-1 self-center p-4 text-white bg-[#acc2d3] rounded-lg z-10 h-[30%]  grid content-around shadow-xl">
             <h1 className="text-2xl font-bold mt-0">
               CDC - Battelle | Emergency Response Branch
             </h1>
@@ -16,7 +16,7 @@ export default function CDC() {
             <p className="mb-2">July 2019 – February 2022</p>
           </div>
           <div className="row-span-full col-end-11 col-span-7 self-center">
-            <div className="object-cover rounded-lg bg-[#bf997e]  p-5">
+            <div className="object-cover rounded-lg bg-[#bf997e]  p-5 shadow-xl">
               <p className="pl-[30%]">
                 Originally hired to automate liquid handling to create a high
                 throughput emergency response protocols, things quickly changed
@@ -54,7 +54,7 @@ export default function CDC() {
           </div>
         </div>
       </div>
-      <div className="md:invisible text-white bg-[#acc2d3] rounded-lg p-4">
+      <div className="md:invisible text-white bg-[#acc2d3] rounded-lg p-4 shadow-xl">
         <h1 className="text-2xl font-bold mt-0">CDC - Battelle | Emergency Response Branch</h1>
         <p className="mb-2 text-xl">Research Chemist</p>
         <p className="mb-2 text-xl">July 2019 – February 2022</p>

@@ -4,10 +4,10 @@ export default function WomensShelters() {
       return (
             <>
               <div className="w-full">
-                <div className="bg-[#625F75] md:w-[30%] w-[80%] z-20 translate-y-10 translate-x-5 rounded-lg">
+                <div className="bg-[#6198c1] md:w-[40%] w-[80%] z-20 translate-y-10 translate-x-5 rounded-lg shadow-xl">
                   <h2 className="font-semibold text-white text-center py-3 text-2xl">Morning Pointe Women's Shelter</h2>
                 </div>
-                <div className="bg-[#8f8ca1] w-full rounded-lg z-10">
+                <div className="bg-[#a5c4db] w-full rounded-lg z-10 shadow-md">
                   <h2 className="py-5 text-base md:px-5 px-3 leading-8">
                   Research has shown that pregnancy increases a woman’s risk
                       of homelessness and vice versa – that homeless women are

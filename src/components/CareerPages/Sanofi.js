@@ -9,7 +9,7 @@ export default function Sanofi() {
       <div className="wrap w-full mx-auto mb-5">
         <div className="md:grid md:grid-cols-10 hidden">
           <div className="row-span-full col-start-1 col-span-7 self-center">
-            <div className="object-cover rounded-lg bg-[#c7a68f] p-5 pl-8">
+            <div className="object-cover rounded-lg bg-[#c7a68f] p-5 pl-8 shadow-xl">
               <p className="pr-[30%]">
                 When applying for my internship, I actually had no idea what
                 being a cleaning validation intern would entail. Working with
@@ -60,7 +60,7 @@ export default function Sanofi() {
               </button>
             </div>
           </div>
-          <div className="row-span-full col-span-5 col-end-11 self-center p-4 text-white bg-[#a1bacd] rounded-lg h-[30%]  grid content-around">
+          <div className="row-span-full col-span-5 col-end-11 self-center p-4 text-white bg-[#a1bacd] rounded-lg h-[30%]  grid content-around shadow-xl">
             <h1 className="text-2xl font-bold mt-0">
               Sanofi | Product Development
             </h1>
@@ -71,7 +71,7 @@ export default function Sanofi() {
           </div>
         </div>
       </div>
-      <div className="md:invisible text-white bg-[#a1bacd] rounded-lg p-4">
+      <div className="md:invisible text-white bg-[#a1bacd] rounded-lg p-4 shadow-xl">
         <h1 className="text-2xl font-bold mt-0">Sanofi | Product Development</h1>
         <p className="mb-2 text-xl">Process Engineer and Cleaning Validation Intern</p>
         <p className="mb-2 text-xl">August 2018 - May 2019</p>

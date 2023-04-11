@@ -9,7 +9,7 @@ export default function UTCRA() {
     <div className="wrap w-full mx-auto mb-5">
         <div className="md:grid md:grid-cols-10 hidden">
           <div className="row-span-full col-start-1 col-span-7 self-center">
-            <div className="object-cover rounded-lg bg-[#c7a68f] p-5 pl-8">
+            <div className="object-cover rounded-lg bg-[#c7a68f] p-5 pl-8 shadow-xl">
 
               <p className="pr-[30%]">
               The Brock Scholars Program at UTC is a four year interdisciplinary program designed to provide students with the opportunity join multiple curriculums for a specialized area of study to present in an undergraduate thesis. The Brock Scholars Program encourages multiple years of research and involvement in other university groups.
@@ -28,14 +28,14 @@ export default function UTCRA() {
               </button>
             </div>
           </div>
-          <div className="row-span-full col-span-5 col-end-11 self-center p-4 text-white bg-[#a1bacd] rounded-lg h-[30%]  grid content-around">
+          <div className="row-span-full col-span-5 col-end-11 self-center p-4 text-white bg-[#a1bacd] rounded-lg h-[30%]  grid content-around shadow-xl">
             <h1 className="text-2xl font-bold mt-0">The University of Tennessee at Chattanooga</h1>
             <p className="mb-2 text-xl">Laboratory Research Lead</p>
             <p className="mb-2">January 2016 - May 2019</p>
           </div>
         </div>
       </div>
-      <div className="md:invisible text-white bg-[#a1bacd] rounded-lg p-4">
+      <div className="md:invisible text-white bg-[#a1bacd] rounded-lg p-4 shadow-xl">
         <h1 className="text-2xl font-bold mt-0">The University of Tennessee at Chattanooga</h1>
         <p className="mb-2 text-xl">Laboratory Research Lead</p>
         <p className="mb-2 text-xl">January 2016 - May 2019</p>
