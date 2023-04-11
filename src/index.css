@@ -35,7 +35,7 @@ a:active {
 
 @media only screen and (min-width: 768px) {
   .aboutHeader {
-    background-image: url("https://res.cloudinary.com/duxmtidm1/image/upload/v1680803471/389877_olc7hw.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/duxmtidm1/image/upload/v1680803471/389877_olc7hw.jpg");
     padding-top: 3rem;
     left: 50%;
     margin-left: -50vw;

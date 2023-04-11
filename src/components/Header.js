@@ -5,6 +5,7 @@ import logo from "../assets/logo.png";
 import Resume from "../pages/Resume";
 import "../index.css"
 
+
 // navbar header
 function Header() {
   const [showResumeModal, setshowResumeModal] = useState(false);
@@ -19,9 +20,10 @@ function Header() {
   }
 
   return (
+
     <Navbar
       fluid={true}
-      className="aboutHeader bg-transparent"
+      className="aboutHeader bg-transparent sticky top-0 w-full"
       id="header"
       rounded={true}
     >
@@ -81,6 +83,7 @@ function Header() {
       </Navbar.Collapse>
       {showResumeModal && <Resume setOpenResumeModal={setshowResumeModal} />}
     </Navbar>
+
   );
 }
 
