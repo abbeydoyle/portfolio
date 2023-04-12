@@ -67,7 +67,7 @@ function About() {
             <div className="md:mt-12 lg:mt-0">
               <p className="text-lg self-start md:leading-10 ">
                 My name is Abbey Doyle. I'm a software developer working
-                for Boeing as an environmental engineer, currently in the progress of getting a Professional
+                for Boeing as an environmental engineer, currently in the process of getting a Professional
                 Certificate in full stack development at the University of
                 Washington. After growing up in Kingsport, TN I left to get my
                 bachelor's degree in Chattanooga, TN. There I studied chemical
