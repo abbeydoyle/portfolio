@@ -66,14 +66,14 @@ function About() {
             </div>
             <div className="md:mt-12 lg:mt-0">
               <p className="text-lg self-start md:leading-10 ">
-                My name is Abbey Doyle. I'm an environmental engineer working
-                for Boeing, currently in the progress of getting a Professional
+                My name is Abbey Doyle. I'm a software developer working
+                for Boeing as an environmental engineer, currently in the progress of getting a Professional
                 Certificate in full stack development at the University of
                 Washington. After growing up in Kingsport, TN I left to get my
                 bachelor's degree in Chattanooga, TN. There I studied chemical
                 engineering and biology while in the Brock Scholars Program. I
                 completed an undergraduate thesis while researching the
-                pathogenicity of Vibrio cholerae and completed internships and
+                pathogenicity of Vibrio cholerae and completed internships with
                 the Center for Disease Control and Prevention and Chattem
                 Sanofi. After graduating I began my career as a research chemist
                 at the CDC through Battelle and worked in the Lung Injury and
