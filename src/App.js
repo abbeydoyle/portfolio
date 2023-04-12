@@ -12,6 +12,8 @@ import Volunteer from "./pages/Volunteer.js";
 import Header from "./components/Header.js";
 import FooterApp from "./components/Footer.js";
 import Education from "./pages/Education";
+import ScrollToTop from "react-scroll-to-top"
+import { ReactComponent as MySVG } from "./components/Arrow.svg"
 
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
                     <Route path="/education" element={<Education />} />
                   </Routes>
                 </div>
+                <ScrollToTop smooth component={<MySVG />} className="bg-transparent grid place-content-center" />
                 <FooterApp />
           </Router>
       );
