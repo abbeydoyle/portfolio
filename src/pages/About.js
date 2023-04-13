@@ -79,6 +79,7 @@ function About() {
 
   // <animated.div style={props} className="-translate-y-96 z-50 text-white text-xl font-bold float-left">Home</animated.div>
 
+//  <h1 className="-translate-y-[28rem] z-50 -translate-x-[40rem] text-white text-3xl font-bold md:block hidden">Home</h1>
 
   return (
     <>
@@ -102,8 +103,7 @@ function About() {
         ></path>
       </svg>
 
-      <h1 className="-translate-y-[28rem] z-50 -translate-x-[40rem] text-white text-3xl font-bold md:block hidden">Home</h1>
-
+      
 
       <h1 className="pt-5 font-bold" id="aboutMe">
         About Me
