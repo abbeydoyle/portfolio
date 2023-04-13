@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Backpacking from "../components/Hobbies/Backpacking";
 import Duna from "../components/Hobbies/Duna";
 import Reading from "../components/Hobbies/Reading";
 import Violin from "../components/Hobbies/Violin";
+// import { useSpring, useTransition, animated } from '@react-spring/web'
 
 const svgStyle = {
   height: "560px",
@@ -22,11 +23,60 @@ const svgStyleFlip = {
   bottom: "0",
 };
 
+
+
 function About() {
   const [showBackpackingModal, setshowBackpackingModal] = useState(false);
   const [showDunaModal, setshowDunaModal] = useState(false);
   const [showReadingModal, setshowReadingModal] = useState(false);
   const [showViolinModal, setshowViolinModal] = useState(false);
+
+  // const props = useSpring({
+  //   from: { opacity: 0 },
+  //   to: { opacity: 1 },
+  // })
+
+  const [h2Style, setH2Style] = useState({});
+  const [h4Style, setH4Style] = useState({});
+
+  useEffect(() => {
+    const h2Timer = setTimeout(() => {
+      setH2Style({
+        transform: 'translateX(0) translateY(-40vw)',
+        opacity: 1,
+        zIndex: 5,
+        transition: 'transform 2s ease-in-out, opacity 4s ease-in-out',
+      });
+    }, 1500); 
+
+    const h4Timer = setTimeout(() => {
+      setH4Style({
+        transform: 'translateX(-40vw) translateY(-35vw)',
+        opacity: 1,
+        zIndex: 5,
+        transition: 'transform 2s ease-in-out, opacity 4s ease-in-out',
+      });
+    }, 500); 
+
+    return () => {
+      clearTimeout(h2Timer);
+      clearTimeout(h4Timer);
+    };
+  }, []);
+
+  const h4initialStyle = {
+    transform: 'translateX(100%) translateY(-35vw)',
+    opacity: 0,
+    zIndex: 5,
+  };
+  const h2initialStyle = {
+    transform: 'translateX(-100%) translateY(-40vw)',
+    opacity: 0,
+    zIndex: 5,
+  };
+
+
+
   return (
     <>
       <svg
@@ -48,6 +98,11 @@ function About() {
           d="M 0.351 264.418 C 0.351 264.418 33.396 268.165 47.112 270.128 C 265.033 301.319 477.487 325.608 614.827 237.124 C 713.575 173.504 692.613 144.116 805.776 87.876 C 942.649 19.853 1317.845 20.149 1440.003 23.965 C 1466.069 24.779 1440.135 24.024 1440.135 24.024 L 1440 0 L 1360 0 C 1280 0 1120 0 960 0 C 800 0 640 0 480 0 C 320 0 160 0 80 0 L 0 0 L 0.351 264.418 Z"
         ></path>
       </svg>
+
+      {/* <animated.div style={props} className="-translate-y-96 z-50 text-white text-xl font-bold float-left">Home</animated.div> */}
+
+      <h2 style={{ ...h4initialStyle, ...h4Style }} className="-translate-y-96 z-50 text-white hidden md:block" id="header-minor">Home</h2>
+
 
       <h1 className="pt-5 font-bold" id="aboutMe">
         About Me
