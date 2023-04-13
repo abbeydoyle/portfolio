@@ -36,45 +36,48 @@ function About() {
   //   to: { opacity: 1 },
   // })
 
-  const [h2Style, setH2Style] = useState({});
-  const [h4Style, setH4Style] = useState({});
+  // const [h2Style, setH2Style] = useState({});
+  // const [h4Style, setH4Style] = useState({});
 
-  useEffect(() => {
-    const h2Timer = setTimeout(() => {
-      setH2Style({
-        transform: 'translateX(0) translateY(-40vw)',
-        opacity: 1,
-        zIndex: 5,
-        transition: 'transform 2s ease-in-out, opacity 4s ease-in-out',
-      });
-    }, 1500); 
+  // useEffect(() => {
+  //   const h2Timer = setTimeout(() => {
+  //     setH2Style({
+  //       transform: 'translateX(0) translateY(-40vw)',
+  //       opacity: 1,
+  //       zIndex: 5,
+  //       transition: 'transform 2s ease-in-out, opacity 4s ease-in-out',
+  //     });
+  //   }, 1500); 
 
-    const h4Timer = setTimeout(() => {
-      setH4Style({
-        transform: 'translateX(-40vw) translateY(-35vw)',
-        opacity: 1,
-        zIndex: 5,
-        transition: 'transform 2s ease-in-out, opacity 4s ease-in-out',
-      });
-    }, 500); 
+  //   const h4Timer = setTimeout(() => {
+  //     setH4Style({
+  //       transform: 'translateX(-40vw) translateY(-35vw)',
+  //       opacity: 1,
+  //       zIndex: 5,
+  //       transition: 'transform 2s ease-in-out, opacity 4s ease-in-out',
+  //     });
+  //   }, 500); 
 
-    return () => {
-      clearTimeout(h2Timer);
-      clearTimeout(h4Timer);
-    };
-  }, []);
+  //   return () => {
+  //     clearTimeout(h2Timer);
+  //     clearTimeout(h4Timer);
+  //   };
+  // }, []);
 
-  const h4initialStyle = {
-    transform: 'translateX(100%) translateY(-35vw)',
-    opacity: 0,
-    zIndex: 5,
-  };
-  const h2initialStyle = {
-    transform: 'translateX(-100%) translateY(-40vw)',
-    opacity: 0,
-    zIndex: 5,
-  };
+  // const h4initialStyle = {
+  //   transform: 'translateX(100%) translateY(-35vw)',
+  //   opacity: 0,
+  //   zIndex: 5,
+  // };
+  // const h2initialStyle = {
+  //   transform: 'translateX(-100%) translateY(-40vw)',
+  //   opacity: 0,
+  //   zIndex: 5,
+  // };
 
+  // <h2 style={{ ...h4initialStyle, ...h4Style }} className="-translate-y-96 z-50 text-white hidden md:block" id="header-minor">Home</h2>
+
+  // <animated.div style={props} className="-translate-y-96 z-50 text-white text-xl font-bold float-left">Home</animated.div>
 
 
   return (
@@ -99,9 +102,7 @@ function About() {
         ></path>
       </svg>
 
-      {/* <animated.div style={props} className="-translate-y-96 z-50 text-white text-xl font-bold float-left">Home</animated.div> */}
-
-      <h2 style={{ ...h4initialStyle, ...h4Style }} className="-translate-y-96 z-50 text-white hidden md:block" id="header-minor">Home</h2>
+      <h1 className="-translate-y-[28rem] z-50 -translate-x-[40rem] text-white text-3xl font-bold md:block hidden">Home</h1>
 
 
       <h1 className="pt-5 font-bold" id="aboutMe">
