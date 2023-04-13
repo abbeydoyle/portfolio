@@ -4,7 +4,6 @@ import { Navbar } from "flowbite-react";
 import logo from "../assets/logo.png";
 import Resume from "../pages/Resume";
 import "../index.css"
-import { useLocation } from "react-router-dom";
 
 
 // navbar header
@@ -12,24 +11,19 @@ function Header() {
   const [showResumeModal, setshowResumeModal] = useState(false);
 
   // FIXME: header image sizing
-  // const headerSwitch = document.querySelector('#aboutMe');
-  // const headerCheck = async () => {
-  //   document.getElementById("header").setAttribute("class", "aboutHeader")
-  // }
-  // if (headerSwitch) {
-  //   headerCheck();
-  // }
-
-  const location = useLocation();
-  const { pathname } = location;
-  const splitLocation = pathname.split("/");
+  const headerSwitch = document.querySelector('#aboutMe');
+  const headerCheck = async () => {
+    document.getElementById("header").setAttribute("class", "aboutHeader")
+  }
+  if (headerSwitch) {
+    headerCheck();
+  }
 
   return (
 
     <Navbar
       fluid={true}
-      className={splitLocation[1] !== "" ? "header w-full bg-transparent" : "aboutHeader w-full bg-transparent"}
-      
+      className="aboutHeader bg-transparent sticky top-0 w-full"
       id="header"
       rounded={true}
     >
