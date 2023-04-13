@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Backpacking from "../components/Hobbies/Backpacking";
 import Duna from "../components/Hobbies/Duna";
 import Reading from "../components/Hobbies/Reading";
