@@ -48,7 +48,7 @@ export default function Education() {
       </svg>
 
       <h1
-        className="pt-2 md:mt-8 text-center md:pb-8 pb-2"
+        className="pt-2 md:mt-8 text-center font-bold md:pb-8 pb-2"
         id="otherPage"
       >
         Education
