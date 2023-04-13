@@ -103,7 +103,7 @@ function About() {
         ></path>
       </svg>
 
-      <h1 className="-translate-y-[28rem] z-50 -translate-x-[40rem] text-white text-3xl font-bold md:block hidden">Home</h1>
+      <h1 className="-translate-y-[28rem] -translate-x-[40rem] text-white text-3xl font-bold md:block hidden">Home</h1>
 
       <h1 className="pt-5 font-bold" id="aboutMe">
         About Me

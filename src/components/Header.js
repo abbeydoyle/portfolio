@@ -1,10 +1,11 @@
 // dependencies
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import { Navbar } from "flowbite-react";
 import logo from "../assets/logo.png";
 import Resume from "../pages/Resume";
 import "../index.css"
 import { useLocation } from "react-router-dom";
+import { Transition } from '@headlessui/react'
 
 
 // navbar header
@@ -77,7 +78,15 @@ function Header() {
           </span>
         </Navbar.Link>
       </Navbar.Collapse>
-      {showResumeModal && <Resume setOpenResumeModal={setshowResumeModal} />}
+      {showResumeModal && <Transition
+      show={showResumeModal}
+      enter="transition duration-1000 ease-out"
+      enterFrom="transform scale-95 opacity-0"
+      enterTo="transform scale-100 opacity-100"
+      leave="transition duration-1000 ease-out"
+      leaveFrom="transform scale-100 opacity-100"
+      leaveTo="transform scale-95 opacity-0"
+    ><Resume setOpenResumeModal={setshowResumeModal} /> </Transition>}
     </Navbar>
 
   );

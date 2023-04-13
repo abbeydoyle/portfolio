@@ -1,5 +1,6 @@
 import React from "react";
 import CV from "../assets/CV.pdf"
+import { Transition } from '@headlessui/react'
 
 export default function Resume({ setOpenResumeModal }) {
   return (
