@@ -3,27 +3,8 @@ import Backpacking from "../components/Hobbies/Backpacking";
 import Duna from "../components/Hobbies/Duna";
 import Reading from "../components/Hobbies/Reading";
 import Violin from "../components/Hobbies/Violin";
-// import { useSpring, useTransition, animated } from '@react-spring/web'
-
-const svgStyle = {
-  height: "560px",
-  width: "100%",
-  zIndex: "-10",
-  overflow: "hidden",
-  position: "fixed",
-  top: "0",
-};
-const svgStyleFlip = {
-  height: "560px",
-  width: "100%",
-  zIndex: "-10",
-  overflow: "hidden",
-  transform: "scale(-1, -1)",
-  position: "fixed",
-  bottom: "0",
-};
-
-
+import TopSVG from "../components/TopSVG";
+import BottomSVG from "../components/BottomSVG";
 
 function About() {
   const [showBackpackingModal, setshowBackpackingModal] = useState(false);
@@ -31,79 +12,13 @@ function About() {
   const [showReadingModal, setshowReadingModal] = useState(false);
   const [showViolinModal, setshowViolinModal] = useState(false);
 
-  // const props = useSpring({
-  //   from: { opacity: 0 },
-  //   to: { opacity: 1 },
-  // })
-
-  // const [h2Style, setH2Style] = useState({});
-  // const [h4Style, setH4Style] = useState({});
-
-  // useEffect(() => {
-  //   const h2Timer = setTimeout(() => {
-  //     setH2Style({
-  //       transform: 'translateX(0) translateY(-40vw)',
-  //       opacity: 1,
-  //       zIndex: 5,
-  //       transition: 'transform 2s ease-in-out, opacity 4s ease-in-out',
-  //     });
-  //   }, 1500); 
-
-  //   const h4Timer = setTimeout(() => {
-  //     setH4Style({
-  //       transform: 'translateX(-40vw) translateY(-35vw)',
-  //       opacity: 1,
-  //       zIndex: 5,
-  //       transition: 'transform 2s ease-in-out, opacity 4s ease-in-out',
-  //     });
-  //   }, 500); 
-
-  //   return () => {
-  //     clearTimeout(h2Timer);
-  //     clearTimeout(h4Timer);
-  //   };
-  // }, []);
-
-  // const h4initialStyle = {
-  //   transform: 'translateX(100%) translateY(-35vw)',
-  //   opacity: 0,
-  //   zIndex: 5,
-  // };
-  // const h2initialStyle = {
-  //   transform: 'translateX(-100%) translateY(-40vw)',
-  //   opacity: 0,
-  //   zIndex: 5,
-  // };
-
-  // <h2 style={{ ...h4initialStyle, ...h4Style }} className="-translate-y-96 z-50 text-white hidden md:block" id="header-minor">Home</h2>
-
-  // <animated.div style={props} className="-translate-y-96 z-50 text-white text-xl font-bold float-left">Home</animated.div>
-
-//  <h1 className="-translate-y-[28rem] z-50 -translate-x-[40rem] text-white text-3xl font-bold md:block hidden">Home</h1>
-
   return (
     <>
-      <svg
-        data-name="Layer 1"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-        preserveAspectRatio="none"
-        className="svg absolute block"
-        style={svgStyle}
-      >
-        <defs>
-          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-            <stop stopColor="rgb(242,235,230)" offset="0%"></stop>
-            <stop stopColor="rgb(210,183,164)" offset="100%"></stop>
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#sw-gradient-0)"
-          d="M 0.351 264.418 C 0.351 264.418 33.396 268.165 47.112 270.128 C 265.033 301.319 477.487 325.608 614.827 237.124 C 713.575 173.504 692.613 144.116 805.776 87.876 C 942.649 19.853 1317.845 20.149 1440.003 23.965 C 1466.069 24.779 1440.135 24.024 1440.135 24.024 L 1440 0 L 1360 0 C 1280 0 1120 0 960 0 C 800 0 640 0 480 0 C 320 0 160 0 80 0 L 0 0 L 0.351 264.418 Z"
-        ></path>
-      </svg>
+      <TopSVG />
 
-      <h1 className="-translate-y-[28rem] -translate-x-[40rem] text-white text-3xl font-bold md:block hidden">Home</h1>
+      <h1 className="-translate-y-[28rem] -translate-x-[40rem] text-white text-3xl font-bold md:block hidden">
+        Home
+      </h1>
 
       <h1 className="pt-5 font-bold" id="aboutMe">
         About Me
@@ -122,27 +37,27 @@ function About() {
             </div>
             <div className="md:mt-12 lg:mt-0">
               <p className="text-lg self-start md:leading-10 ">
-                My name is Abbey Doyle. I'm a software developer working
-                for Boeing as an environmental engineer, currently in the process of getting a Professional
-                Certificate in full stack development at the University of
-                Washington. After growing up in Kingsport, TN I left to get my
-                bachelor's degree in Chattanooga, TN. There I studied chemical
-                engineering and biology while in the Brock Scholars Program. I
-                completed an undergraduate thesis while researching the
-                pathogenicity of Vibrio cholerae and completed internships with
-                the Center for Disease Control and Prevention and Chattem
-                Sanofi. After graduating I began my career as a research chemist
-                at the CDC through Battelle and worked in the Lung Injury and
-                COVID-19 responses. After living in Atlanta for 3 years I moved
-                crosscountry to Seattle, where I reside in my current job role.
-                In my free time I like to backpack, read, run, play the violin
-                or piano, and take my dog to parks. Throughout my education and
-                career I learned languages like: Python, MATLAB, VBA, CAD
-                software, JS, CSS, HTML, RestFUL APIs, the MERN stack,
-                object-oriented programing, etc. I became fascinated with all of
-                the minor differences in softwares that make or break a code and
-                love the challenges that arise when writing a method start to
-                finish.
+                My name is Abbey Doyle. I'm a software developer working for
+                Boeing as an environmental engineer, currently in the process of
+                getting a Professional Certificate in full stack development at
+                the University of Washington. After growing up in Kingsport, TN
+                I left to get my bachelor's degree in Chattanooga, TN. There I
+                studied chemical engineering and biology while in the Brock
+                Scholars Program. I completed an undergraduate thesis while
+                researching the pathogenicity of Vibrio cholerae and completed
+                internships with the Center for Disease Control and Prevention
+                and Chattem Sanofi. After graduating I began my career as a
+                research chemist at the CDC through Battelle and worked in the
+                Lung Injury and COVID-19 responses. After living in Atlanta for
+                3 years I moved crosscountry to Seattle, where I reside in my
+                current job role. In my free time I like to backpack, read, run,
+                play the violin or piano, and take my dog to parks. Throughout
+                my education and career I learned languages like: Python,
+                MATLAB, VBA, CAD software, JS, CSS, HTML, RestFUL APIs, the MERN
+                stack, object-oriented programing, etc. I became fascinated with
+                all of the minor differences in softwares that make or break a
+                code and love the challenges that arise when writing a method
+                start to finish.
               </p>
             </div>
           </div>
@@ -169,17 +84,24 @@ function About() {
             <h2>CDC</h2>
             <hr></hr>
             <p>
-            “She was an invaluable asset to the lab during the lung injury response earlier this year and it’s worth noting, she nearly handled the response singlehandedly for the IRL (Incidents Response Lab). She has been a source of continuity in the lab this year as many staff have transitioned out of the lab. She has worked diligently in the IRL, taken on more tasks and helped maintain continuity during staff transitions. She communicates well and is responsive to both Battelle and CDC requirements.”<br />– 2020 Performance Review
+              “She was an invaluable asset to the lab during the lung injury
+              response earlier this year and it’s worth noting, she nearly
+              handled the response singlehandedly for the IRL (Incidents
+              Response Lab). She has been a source of continuity in the lab this
+              year as many staff have transitioned out of the lab. She has
+              worked diligently in the IRL, taken on more tasks and helped
+              maintain continuity during staff transitions. She communicates
+              well and is responsive to both Battelle and CDC requirements.”
+              <br />– 2020 Performance Review
             </p>
           </div>
-
         </div>
 
         <div className="md:pl-[45%] pl-[35%] mb-[20%]">
-        <h2 className="-pl-[40%]">Hobbies</h2>
-            <hr className="-ml-[60%]"></hr>
-          <div className="">
-            <div className="">
+          <h2 className="-pl-[40%]">Hobbies</h2>
+          <hr className="-ml-[60%]"></hr>
+          <div>
+            <div>
               <div
                 className="venncirctop p-[18px] w-[240px] h-[240px] rounded-full absolute transition duration-500 ease-in-out mb-[-130px] ml-[-70px] bg-[#5c5b59] z-10
               hover:z-50 hover:bg-[#6A6561]
@@ -246,28 +168,15 @@ function About() {
         </div>
       </div>
 
-      <svg
-        data-name="Layer 1"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-        preserveAspectRatio="none"
-        className="svg absolute block"
-        style={svgStyleFlip}
-      >
-        <defs>
-          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-            <stop stopColor="rgb(242,235,230)" offset="0%"></stop>
-            <stop stopColor="rgb(210,183,164)" offset="100%"></stop>
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#sw-gradient-0)"
-          d="M 0.351 264.418 C 0.351 264.418 33.396 268.165 47.112 270.128 C 265.033 301.319 477.487 325.608 614.827 237.124 C 713.575 173.504 692.613 144.116 805.776 87.876 C 942.649 19.853 1317.845 20.149 1440.003 23.965 C 1466.069 24.779 1440.135 24.024 1440.135 24.024 L 1440 0 L 1360 0 C 1280 0 1120 0 960 0 C 800 0 640 0 480 0 C 320 0 160 0 80 0 L 0 0 L 0.351 264.418 Z"
-        ></path>
-      </svg>
-      {showBackpackingModal && <Backpacking setOpenBackpackingModal={setshowBackpackingModal} />}
+      <BottomSVG />
+
+      {showBackpackingModal && (
+        <Backpacking setOpenBackpackingModal={setshowBackpackingModal} />
+      )}
       {showDunaModal && <Duna setOpenDunaModal={setshowDunaModal} />}
-      {showReadingModal && <Reading setOpenReadingModal={setshowReadingModal} />}
+      {showReadingModal && (
+        <Reading setOpenReadingModal={setshowReadingModal} />
+      )}
       {showViolinModal && <Violin setOpenViolinModal={setshowViolinModal} />}
     </>
   );

@@ -12,11 +12,6 @@ body {
   /* cursor: url("./assets/logo.png"), auto; */
 }
 
-/* h3 {
-      padding-top: 2rem;
-      padding-bottom: 0.5rem;
-} */
-
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
   cursor: pointer !important
@@ -64,7 +59,7 @@ a:active {
     right: 50%;
     width: 100vw;
     top: 50%;
-    height: 12vw;
+    height: 10vw;
     margin-top: -5vw;
     padding-left: 1rem;
     padding-right: 1rem;
