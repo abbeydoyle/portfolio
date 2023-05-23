@@ -134,3 +134,12 @@ a:active {
 .gallery > img:nth-child(4) {--_x: calc(-50% - .5*var(--g))}
 .gallery > img:nth-child(5), 
 .gallery > img:nth-child(6) {--_x: calc( 50% + .5*var(--g))}
+
+.arrow {
+  background-color: inherit !important;
+  color: inherit;
+  box-shadow: none !important;
+  margin-bottom: -1rem;
+  margin-right: -1rem;
+  /* opacity: 0; */
+}
